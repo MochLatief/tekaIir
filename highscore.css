@@ -1,0 +1,20 @@
+body {
+    color: white;
+}
+
+#finalScore {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#highScoresList {
+    list-style: none;
+    margin-bottom: 5rem;
+}
+
+.high-score {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    width: 20rem;
+}

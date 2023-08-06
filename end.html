@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Akhir</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f248b27fb6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Masukkan Nama Anda Untuk Mencatatkan Di Leaderboard</h2>
+                <input type="text" name="name" id="username" placeholder="Masukkan Nama Anda">
+                <button class="btn" id="saveScoreBtn" type="submit" onClick="saveHighScore(event)" disabled>Save    <i class="fas fa-save"></i></button>
+            </form>
+            <a href="quiz.html" class="btn">Mulai Lagi  <i class="fas fa-redo"></i></a>
+            <a href="index.html" class="btn">Kembali <i class="fas fa-home"></i></a>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>
